@@ -11,4 +11,8 @@ router.get('/', (req, res) => {
     `);
 });
 
+router.use ((req,res) => {
+    res.status(404).send(`<h1>Page not found</h1><a href="/endroute></a>`)
+})
+
 module.exports = router;
