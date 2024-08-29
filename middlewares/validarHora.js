@@ -11,3 +11,8 @@ const validarHora = (req, res, next) => {
 
 module.exports = validarHora;
 
+
+ //res.redirect:es un método que se utiliza para redirigir a un cliente
+ //(generalmente un navegador) a una URL diferente. Cuando se llama a este método, 
+ //el servidor envía una respuesta HTTP con un código de estado de redirección
+ //(por lo general un código 302,etc.) junto con la URL a la que el cliente debe ser enviado.
